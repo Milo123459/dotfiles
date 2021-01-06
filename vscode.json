@@ -1,0 +1,66 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "discord.detailsEditing": "🎉Coding!🎉",
+    "discord.detailsDebugging": "Debugging {filename} in {workspace}",
+    "window.zoomLevel": 0,
+    "discord.lowerDetailsEditing": "📂{filename} in {workspace} | {totallines} lines ",
+    "editor.suggestSelection": "first",
+    "npm.includeDirectories": [
+    "gitHistory.hideCommitViewExplorer"
+    ],
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "extensions.ignoreRecommendations": true,
+    
+        "workbench.colorCustomizations": {
+          "terminalCursor.background": "#282a36",
+          "terminalCursor.foreground": "#97979b",
+          "terminal.selectionBackground": "#97979b33",
+          "terminal.foreground": "#eff0eb",
+          "terminal.ansiBlack": "#282a36",
+          "terminal.ansiRed": "#ff5c57",
+          "terminal.ansiGreen": "#5af78e",
+          "terminal.ansiYellow": "#f3f99d",
+          "terminal.ansiBlue": "#57c7ff",
+          "terminal.ansiMagenta": "#ff6ac1",
+          "terminal.ansiCyan": "#9aedfe",
+          "terminal.ansiWhite": "#f1f1f0",
+          "terminal.ansiBrightBlack": "#686868",
+          "terminal.ansiBrightRed": "#ff5c57",
+          "terminal.ansiBrightGreen": "#5af78e",
+          "terminal.ansiBrightYellow": "#f3f99d",
+          "terminal.ansiBrightBlue": "#57c7ff",
+          "terminal.ansiBrightMagenta": "#ff6ac1",
+          "terminal.ansiBrightCyan": "#9aedfe",
+          "terminal.ansiBrightWhite": "#eff0eb"
+        },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "update.mode": "start",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.confirmSync": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.colorTheme": "Community Material Theme Palenight",
+    "editor.renameOnType": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.menuBarVisibility": "default",
+    "workbench.preferredDarkColorTheme": "Community Material Theme Palenight",
+    "workbench.preferredHighContrastColorTheme": "Community Material Theme Palenight",
+    "workbench.preferredLightColorTheme": "Community Material Theme Palenight",
+    "workbench.editor.highlightModifiedTabs": true,
+    "window.doubleClickIconToClose": true,
+    "editor.detectIndentation": false,
+    "emojisense.languages": {
+
+        "markdown": true,
+        "javascript": true,
+        "typescript": true,
+        "plaintext": {
+            "markupCompletionsEnabled": false,
+            "emojiDecoratorsEnabled": false
+        },
+        "scminput": true,
+        "git-commit": true,
+        "vue": true
+    }
+}
