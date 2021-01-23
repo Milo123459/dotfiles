@@ -1,0 +1,10 @@
+[time]
+disabled = false
+format = '[\[ $time \]]($style) '
+time_format = "%T"
+
+[nodejs]
+disabled = true
+
+[git_status]
+disabled = true
