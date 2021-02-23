@@ -8,3 +8,7 @@ disabled = true
 
 [git_status]
 disabled = true
+
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow)"
