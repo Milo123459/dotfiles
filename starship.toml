@@ -1,6 +1,7 @@
 [time]
 disabled = false
-format = '▲ '
+format = '[\[ $time \]]($style) '
+time_format = "%T"
 
 [nodejs]
 disabled = true
