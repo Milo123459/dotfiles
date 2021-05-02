@@ -10,7 +10,7 @@ function cc() {
     cargo clippy --workspace --locked --all-targets --all-features -- -D clippy::all
 }
 function cr() {
-    cargo run --
+    cargo run
 }
 function cf() {
     cargo fmt
