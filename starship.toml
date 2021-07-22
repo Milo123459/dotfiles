@@ -15,3 +15,9 @@ format = "took [$duration](bold yellow)"
 
 [battery]
 disabled = true
+
+[git_metrics]
+disabled = false
+
+[lua]
+disabled = true
