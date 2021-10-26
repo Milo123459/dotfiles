@@ -9,6 +9,11 @@ Invoke-Expression (& {
     (zoxide init --hook $hook powershell) -join "`n"
 })
 function tokio {
-    cd ~/Desktop/GitHub/console
-    cargo run --release
+    Set-Location ~/Desktop/GitHub/console; cargo run --release
 }
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
+fnm env --use-on-cd | Out-String | Invoke-Expression
