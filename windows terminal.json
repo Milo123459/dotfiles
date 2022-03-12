@@ -60,7 +60,10 @@
             "colorScheme": "rose-pine-moon",
             "font": 
             {
-                "face": "JetBrainsMono Nerd Font"
+                "face": "JetBrainsMono Nerd Font",
+                "features": {
+                	  "liga": 0
+                }
             }
         },
         "list": 
