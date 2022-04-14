@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR=$HOME/.dotfiles
+#DIR=$HOME/.dotfiles
 
 echo "copy bashrc"
 cp $DIR/.bashrc $HOME/.bashrc
