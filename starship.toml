@@ -21,3 +21,6 @@ disabled = false
 
 [lua]
 disabled = true
+
+[container]
+disabled = true
