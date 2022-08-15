@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+if [ ! -d "$HOME/.config" ] && mkdir $HOME/.config
 cp .bashrc $HOME/.bashrc
 cp starship.toml $HOME/.config/starship.toml
 curl -sS https://starship.rs/install.sh | sh -s -- -y
