@@ -24,3 +24,6 @@ disabled = true
 
 [container]
 disabled = true
+
+[jobs]
+disabled = true
