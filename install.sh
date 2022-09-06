@@ -7,4 +7,5 @@ curl -fsSL https://raw.githubusercontent.com/Milo123459/glitter/master/install.s
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source "$HOME/.cargo/env"
 rustup default stable
+sudo apt install fzf
 gh extension install mislav/gh-branch
