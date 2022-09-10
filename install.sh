@@ -9,4 +9,3 @@ source "$HOME/.cargo/env"
 rustup default stable
 sudo apt install fzf
 gh extension install mislav/gh-branch
-curl -fsSL https://tailscale.com/install.sh | sh
