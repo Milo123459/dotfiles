@@ -11,4 +11,4 @@ curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
 sudo bash n lts
 rm n
 sudo npm i -g n yarn pnpm
-curl -fsSL https://railway.app/install.sh | sudo sh
+curl -fsSL https://railway.app/install.sh | bash
