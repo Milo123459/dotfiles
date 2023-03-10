@@ -7,6 +7,7 @@ curl -fsSL https://raw.githubusercontent.com/Milo123459/glitter/master/install.s
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source "$HOME/.cargo/env"
 rustup default stable
+cp cargo.toml $HOME/.cargo/config.toml
 curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
 sudo bash n lts
 rm n
