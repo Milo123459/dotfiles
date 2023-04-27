@@ -12,4 +12,5 @@ curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
 sudo bash n lts
 rm n
 sudo npm i -g n yarn pnpm
+cargo install cargo-quickinstall
 curl -fsSL https://railway.app/install.sh | bash
