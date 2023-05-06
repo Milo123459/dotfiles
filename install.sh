@@ -14,3 +14,5 @@ rm n
 sudo npm i -g n yarn pnpm
 cargo install cargo-quickinstall
 curl -fsSL https://railway.app/install.sh | bash
+cargo quickinstall erdtree
+alias ls="et --icons --level 1"
