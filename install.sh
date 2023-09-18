@@ -18,4 +18,5 @@ cargo quickinstall erdtree
 cargo quickinstall rojo
 alias ls="erd --icons --level 1"
 curl -fsSL https://bun.sh/install | bash
+curl -fsSL https://tailscale.com/install.sh | sh
 source /home/codespace/.bashrc
