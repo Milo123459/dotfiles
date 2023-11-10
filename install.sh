@@ -11,7 +11,7 @@ cp cargo.toml $HOME/.cargo/config.toml
 curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
 sudo bash n lts
 rm n
-npm i -g pnpm yarn @microsoft/inshellisense
+npm i -g pnpm yarn
 cargo install cargo-quickinstall
 curl -fsSL https://railway.app/install.sh | bash
 cargo quickinstall erdtree
