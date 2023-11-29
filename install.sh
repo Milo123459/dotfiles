@@ -16,6 +16,5 @@ cargo install cargo-quickinstall
 curl -fsSL https://railway.app/install.sh | bash
 cargo quickinstall erdtree
 cargo quickinstall rojo
-alias ls="erd --icons --level 1"
 curl -fsSL https://bun.sh/install | bash
 source /home/codespace/.bashrc
